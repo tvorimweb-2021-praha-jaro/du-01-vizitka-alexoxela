@@ -1,0 +1,129 @@
+.hlavicka{
+    background-color: black;
+    color:#ff66b3;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding:30px;
+}
+
+.omne{
+    background-color: white;
+}
+
+
+.omne h2{
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    text-align: center;
+    font-size: 60px;
+    
+}
+.omne p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px; 
+    }
+
+
+.omne img{
+    width:350px;
+    border-radius:0px 50px 50px 50px;
+    border-color: black 2px solid;
+    float:left;
+    margin-bottom: 30px;
+    margin-right:30px;
+  }
+
+.hobby h3{
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    text-align: left;
+    font-size: 40px; 
+  }
+
+.hobby h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px; 
+    text-align: center;
+}
+
+.hobby p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px; 
+}
+
+.hobby
+.snow{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px; 
+    padding-bottom: 120px;
+    }
+
+.hobby img{
+
+        width: 300px;
+        border-radius: 10px;
+        padding-bottom: 30px;
+    }
+
+.hobbydj
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    padding-bottom: 30px;   
+
+}
+
+.hobbydj
+.alexhra1{
+    width: 500px;
+    border-radius:0px 50px 50px 50px;
+    padding-bottom: 30px;
+    padding-left: 380px;
+    }
+
+.hobbydj
+.alexhra2{
+    width: 500px;
+    border-radius:50px 0px 50px 50px;
+    padding-bottom: 30px;
+
+}
+
+
+
+.odkazy a{
+    display:inline-block;
+    color:	#e60073;
+    text-decoration:none;
+    padding:20px 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    padding-bottom: 30px;
+    
+    
+
+}
+
+.odkazy a:hover,
+.odkazy a:focus,
+.odkazy a:active{
+        background-color:black;
+
+}
+
+.kontakt h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}
+
+.pata{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:20px 0;
+}
+
