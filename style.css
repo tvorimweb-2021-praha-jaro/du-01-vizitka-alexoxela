@@ -11,6 +11,10 @@
         padding:30px;
 }
 
+body{
+    margin:0;
+}
+
 
 .omne{
     background-color: white;
@@ -29,6 +33,8 @@
     font-family: 'Quicksand', sans-serif;
     font-size: 24px; 
     line-height: 1,5;
+    padding-left: 10px;
+    padding-right:10px;
     }
 
 
@@ -46,6 +52,7 @@
     font-style: bold;
     text-align: left;
     font-size: 40px; 
+    
   }
 
 .hobby h4{
@@ -57,6 +64,8 @@
 .hobby p{
     font-family: 'Quicksand', sans-serif;
     font-size: 24px; 
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 .hobby
@@ -68,9 +77,12 @@
 
 .hobby img{
 
-        width: 16%;
+        width: 14%;
         border-radius: 10px;
         padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+       
     }
 
 .hobbydj
@@ -78,22 +90,29 @@ p{
     font-family: 'Quicksand', sans-serif;
     font-size: 24px;
     padding-bottom: 30px;   
+    padding-left: 10px;
+    padding-right:10px;
 
 }
 
 .hobbydj
 .alexhra1{
-    width: 500px;
-    border-radius:0px 50px 50px 50px;
-    padding-bottom: 30px;
-    padding-left: 380px;
+    width:500px;
+    border-radius:20%;
+    float:left;
+    margin-left:30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
     }
 
 .hobbydj
 .alexhra2{
-    width: 500px;
-    border-radius:50px 0px 50px 50px;
-    padding-bottom: 30px;
+    width:500px;
+    border-radius:20%;
+    float:right;
+    margin-right:30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -106,6 +125,7 @@ p{
     font-family: 'Quicksand', sans-serif;
     font-size: 28px;
     padding-bottom: 30px;
+    padding-left: 20px;
     
 }
 
@@ -120,6 +140,7 @@ p{
     font-size: 36px;
     padding-bottom: 15px; 
     padding-top: 15px;
+    padding-left: 20px;
 }
 
 .pata{
