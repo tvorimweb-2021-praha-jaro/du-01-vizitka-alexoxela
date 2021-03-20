@@ -1,11 +1,16 @@
 .hlavicka{
-    background-color: black;
-    color:#ff66b3;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    font-size: 40px;
-    padding:30px;
+    background-image: url(images/pozadie.jpg);
+        padding:150px 30px;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        color:#ff66b3;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        padding:30px;
 }
+
 
 .omne{
     background-color: white;
@@ -17,11 +22,13 @@
     font-style: bold;
     text-align: center;
     font-size: 60px;
-    
+      
 }
+
 .omne p{
     font-family: 'Quicksand', sans-serif;
     font-size: 24px; 
+    line-height: 1,5;
     }
 
 
@@ -61,7 +68,7 @@
 
 .hobby img{
 
-        width: 300px;
+        width: 16%;
         border-radius: 10px;
         padding-bottom: 30px;
     }
@@ -90,8 +97,6 @@ p{
 
 }
 
-
-
 .odkazy a{
     display:inline-block;
     color:	#e60073;
@@ -102,15 +107,12 @@ p{
     font-size: 28px;
     padding-bottom: 30px;
     
-    
-
 }
 
 .odkazy a:hover,
 .odkazy a:focus,
 .odkazy a:active{
         background-color:black;
-
 }
 
 .kontakt h3{
