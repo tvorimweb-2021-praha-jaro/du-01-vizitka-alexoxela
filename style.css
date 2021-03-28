@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+       
+}
 .hlavicka{
     background-image: url(images/pozadie.jpg);
         padding:150px 30px;
