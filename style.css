@@ -1,7 +1,13 @@
 html {
     box-sizing: border-box;
-       
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .hlavicka{
     background-image: url(images/pozadie.jpg);
         padding:150px 30px;
@@ -16,14 +22,22 @@ html {
 }
 
 body{
-    margin:0;
+    max-width: auto;
+    margin:auto;
 }
 
-
-.omne{
-    background-color: white;
+main{
+    background-color:transparent;
+    padding: 1rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
 }
 
+section{
+    background-color: transparent;
+    padding:1rem;
+    display:flow-root;
+}
 
 .omne h2{
     font-family: 'Quicksand', sans-serif;
@@ -80,13 +94,11 @@ body{
     }
 
 .hobby img{
-
-        width: 14%;
-        border-radius: 10px;
-        padding-bottom: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-       
+        width:280px;
+        height: 350px;
+        border-radius: 15px;
+        
+               
     }
 
 .hobbydj
@@ -96,6 +108,7 @@ p{
     padding-bottom: 30px;   
     padding-left: 10px;
     padding-right:10px;
+    padding-top: 100px;
 
 }
 
@@ -146,6 +159,32 @@ p{
     padding-top: 15px;
     padding-left: 20px;
 }
+
+nav{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+nav li{
+    display:inline;
+}
+nav ul{
+    margin: 0px; list-style-type: none;
+}
+
+nav a{
+    background-color:black;
+    color:whitesmoke;
+    border:2px solid  #ff66b3;
+   }
+
+   nav ul li{
+    float: center;
+    padding: 0px 25px;
+    margin: 0 5px;
+    font-size: 17px; 
+    height: 73px; 
+    line-height: 4.3em;
 
 .pata{
     background-color: black;
